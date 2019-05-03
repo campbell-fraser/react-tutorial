@@ -18,9 +18,9 @@ function App() {
       </div>
       <div className="container">
         <div className="row mb-5">
-          <Button name="countdown.py"/>
-          <Button name="trig.py"/>
-          <Button name="Link to repo"/>
+          <Button colour="dark" link="https://github.com/campbell-fraser/hello-world/blob/master/countdown-numbers.py" name="countdown.py"/>
+          <Button colour="dark" link="#" name="trig.py"/>
+          <Button colour="dark" link="https://github.com/campbell-fraser/react-tutorial/tree/master/my-app" name="Link to repo"/>
         </div>
       </div>
     </div>
