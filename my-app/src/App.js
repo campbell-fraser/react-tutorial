@@ -19,7 +19,7 @@ function App() {
       <div className="container">
         <div className="row mb-5">
           <Button colour="dark" link="https://github.com/campbell-fraser/hello-world/blob/master/countdown-numbers.py" name="countdown.py"/>
-          <Button colour="dark" link="#" name="trig.py"/>
+          <Button colour="dark" name="(no link)"/>
           <Button colour="dark" link="https://github.com/campbell-fraser/react-tutorial/tree/master/my-app" name="Link to repo"/>
         </div>
       </div>
