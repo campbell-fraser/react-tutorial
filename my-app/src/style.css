@@ -1,0 +1,60 @@
+body {
+    animation: colorchange 30s;
+    -webkit-animation: colorchange 30s;
+    animation-iteration-count: infinite;
+}
+    @keyframes colorchange
+    {
+    0%        {background: #ffcccc;}
+    12.5%     {background: #ffe3cc;}
+    25%       {background: #fffecc;}
+    37.5%     {background: #ccffce;}
+    50%       {background: #ccfffb;}
+    62.5%     {background: #cce8ff;}
+    75%       {background: #d3ccff;}
+    87.5%     {background: #ffccf4;}
+    100%      {background: #ffcccc;}
+    }
+
+    @-webkit-keyframes colorchange
+    {
+    0%        {background: #ffcccc;}
+    12.5%     {background: #ffe3cc;}
+    25%       {background: #fffecc;}
+    37.5%     {background: #ccffce;}
+    50%       {background: #ccfffb;}
+    62.5%     {background: #cce8ff;}
+    75%       {background: #d3ccff;}
+    87.5%     {background: #ffccf4;}
+    100%      {background: #ffcccc;}
+    }
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#bottom-div {
+    position: relative;
+    bottom: 10px;
+}

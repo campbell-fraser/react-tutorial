@@ -1,14 +1,20 @@
 import React from 'react';
-import './App.css';
+import Header from './components/Header';
+import Card from './components/Card';
+import 'bootstrap/dist/css/bootstrap.css';
+import './style.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="https://t2.ea.ltmcdn.com/en/images/9/4/7/img_how_to_train_a_shiba_inu_749_600.jpg" className="App-logo" alt="logo" />
-        <br></br>
-        <h1>dog spin</h1>
-      </header>
+      <Header />
+      <div className="container">
+        <div className="row">
+          <Card title="Countdown numbers round" text="Emulates the countdown numbers round. User picks selection of numbers, program generates goal." />
+          <Card title="Trigonometry solver" text="When given a triange, solves for side or angle." />
+          <Card title="Basic react app" text="This is a react page I made using create-react-app" />
+        </div>
+      </div>
     </div>
   );
 }
